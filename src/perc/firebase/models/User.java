@@ -15,4 +15,13 @@ public class User {
         this.pass = pass;
         this.uuid = uuid;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", pass='" + pass + '\'' +
+                ", uuid='" + uuid + '\'' +
+                '}';
+    }
 }
